@@ -651,6 +651,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 100%;
 }
 
+@media (max-width: 600px) {
+  .contact form button {
+    margin-left: 10%;
+  }
+  .contact form input,
+  .contact form textarea {
+    width: 90%;
+    margin: 8px 5%;
+  }
+}
 /************ Footer Css ************/
 .footer {
   padding: 50px 0;
